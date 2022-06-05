@@ -6,7 +6,9 @@ Siapkan Username & PIN
 
 clone / unduh script ini
 install module npm
-//Install Package
-npm i puppeteer cheerio cheerio-tableparser http-build-query striptags
+
+Install Package
+
+> npm i puppeteer cheerio cheerio-tableparser http-build-query striptags
 
 run node index
