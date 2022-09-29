@@ -206,9 +206,9 @@ const bot = {
                     let des = val.toString().split('<br>')
                     let rp = des.at(-1)
                     tampung['amount'] = rp.substring(rp.length - 3, 0).replace('\,', '.')
-                    tampung['deskripsi'] = striptags(val.toString())
+                    tampung['desc'] = striptags(val.toString())
                 } else if (key == 0) {
-                    tampung['status'] = val
+                    tampung['date'] = val
                 } else if (key == 2) {
                     tampung['type'] = val
                 }
