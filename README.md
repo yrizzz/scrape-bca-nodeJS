@@ -12,4 +12,5 @@ Install Package
 > npm i puppeteer cheerio cheerio-tableparser http-build-query striptags
 
 jangan lupa isi username dan pin nya di file index.js
+
 run node index
